@@ -1,0 +1,9 @@
+{
+    "env":{
+        "DB_USER":"kalpesh",
+        "DB_PASSWORD":"6Jgv65068t8SDNbq",
+        "DB_NAME":"mern",
+        "GOOGLE_API_KEY":"AIzaSyANW3f613Q6W5cbwxjH4S3rrqE_PWpOTGw",
+        "JWT_KEY":"kalps_supersecret_99$"
+    }
+}
