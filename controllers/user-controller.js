@@ -97,7 +97,7 @@ const login = async (req, res, next) => {
 
   let isValidPassword;
   try {
-    isValidPassword = bcrypt.compare(password, user.password);
+    isValidPassword = await bcrypt.compare(password, user.password);
   } catch (err) {
     return next(
       new HttpError(
