@@ -49,7 +49,8 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.heeyb.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
+    // `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.heeyb.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
+    `mongodb+srv://kalpesh:6Jgv65068t8SDNbq@cluster0.heeyb.mongodb.net/mern?retryWrites=true&w=majority`
   )
   .then(app.listen(process.env.PORT || 5000))
   .catch((err) => console.log(err));
